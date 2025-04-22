@@ -21,3 +21,11 @@ from django.urls import path from .views import live_mining_profit
 
 urlpatterns = [ path('api/mining-profit/', live_mining_profit), ]
 
+{
+  "investor": "Donald Campolo",
+  "mining_profit": Eth $2352.0
+}views.py → live_mining_profit function.
+
+urls.py → Add path('api/mining-profit/', live_mining_profit).
+views.py → live_mining_profit function.
+python manage.py runserver
